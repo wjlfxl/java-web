@@ -1,0 +1,6 @@
+CREATE TABLE USER(
+uid INT(6) PRIMARY KEY,
+uname VARCHAR(20),
+passward VARCHAR(20)
+)
+`user`

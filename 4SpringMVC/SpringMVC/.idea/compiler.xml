@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springmvc-05-JSON" />
+        <module name="springmvc-04-Controller" />
+        <module name="springmvc-06-AJAX" />
+        <module name="springmvc-03-Annotation" />
+        <module name="springmvc-07-intercepter" />
+        <module name="springmvc-02-Hello" />
+        <module name="springmvc-08-file" />
+        <module name="springmvc-01-servlet" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-02-HelloSpring" target="8" />
+      <module name="springmvc-02-HelloSpring" target="8" />
+      <module name="springmvc-04-Controller2" target="8" />
+      <module name="springmvc-05-json" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding=utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-02-HelloSpring" options="" />
+      <module name="springmvc-01-servlet" options="" />
+      <module name="springmvc-02-Hello" options="" />
+      <module name="springmvc-02-HelloSpring" options="" />
+      <module name="springmvc-03-Annotation" options="" />
+      <module name="springmvc-04-Controller" options="" />
+      <module name="springmvc-04-Controller2" options="" />
+      <module name="springmvc-05-JSON" options="" />
+      <module name="springmvc-05-json" options="" />
+      <module name="springmvc-06-AJAX" options="" />
+      <module name="springmvc-07-intercepter" options="" />
+      <module name="springmvc-08-file" options="" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test2" />
+        <module name="mybatis08" />
+        <module name="mybatis05" />
+        <module name="mybatis03" />
+        <module name="mybatis06-many-to-one" />
+        <module name="mybatis04" />
+        <module name="mybatis01" />
+        <module name="mybatis09-Cache" />
+        <module name="mybatis02" />
+        <module name="mybatis07-one-to-many" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis01" target="8" />
+      <module name="mybatis02" target="8" />
+      <module name="mybatis03" target="8" />
+      <module name="mybatis04" target="8" />
+      <module name="mybatis05" target="8" />
+      <module name="mybatis06-many-to-one" target="8" />
+      <module name="mybatis07-one-to-many" target="8" />
+      <module name="mybatis08" target="8" />
+      <module name="mybatis09-Cache" target="8" />
+      <module name="teest1" target="8" />
+      <module name="test2" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

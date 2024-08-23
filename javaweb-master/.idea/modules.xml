@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVAweb.iml" filepath="$PROJECT_DIR$/.idea/JAVAweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/javaweb/filter/filter.iml" filepath="$PROJECT_DIR$/javaweb/javaweb/filter/filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/javaweb/javaweb.iml" filepath="$PROJECT_DIR$/javaweb/javaweb/javaweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/javaweb/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/javaweb/javaweb/jdbc/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/javaweb/jsp/jsp2.iml" filepath="$PROJECT_DIR$/javaweb/javaweb/jsp/jsp2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/javaweb/mail/mail.iml" filepath="$PROJECT_DIR$/javaweb/javaweb/mail/mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/javaweb/response/response.iml" filepath="$PROJECT_DIR$/javaweb/javaweb/response/response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/javaweb/servlet2/servlet2.iml" filepath="$PROJECT_DIR$/javaweb/javaweb/servlet2/servlet2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/javaweb/servlet3/servlet3.iml" filepath="$PROJECT_DIR$/javaweb/javaweb/servlet3/servlet3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/javaweb/session-cookie/session-cookie.iml" filepath="$PROJECT_DIR$/javaweb/javaweb/session-cookie/session-cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/javaweb/smbms/smbms.iml" filepath="$PROJECT_DIR$/javaweb/javaweb/smbms/smbms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/smsbms/smsbms.iml" filepath="$PROJECT_DIR$/javaweb/smsbms/smsbms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/javaweb/Request/untitled.iml" filepath="$PROJECT_DIR$/javaweb/javaweb/Request/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/javaweb/upload3/upload3.iml" filepath="$PROJECT_DIR$/javaweb/javaweb/upload3/upload3.iml" />
+    </modules>
+  </component>
+</project>

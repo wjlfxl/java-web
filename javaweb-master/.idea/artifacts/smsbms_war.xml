@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="smsbms:war">
+    <output-path>$PROJECT_DIR$/javaweb/smsbms/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>smsbms</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="smsbms-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="smsbms:war exploded" />
+    </root>
+  </artifact>
+</component>

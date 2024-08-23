@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/2test-MyBatis.iml" filepath="$PROJECT_DIR$/.idea/2test-MyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teest1/mybatis01/mybatis01.iml" filepath="$PROJECT_DIR$/teest1/mybatis01/mybatis01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teest1/mybatis02/mybatis02.iml" filepath="$PROJECT_DIR$/teest1/mybatis02/mybatis02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teest1/mybatis03/mybatis03.iml" filepath="$PROJECT_DIR$/teest1/mybatis03/mybatis03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teest1/mybatis04/mybatis04.iml" filepath="$PROJECT_DIR$/teest1/mybatis04/mybatis04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teest1/mybatis05/mybatis05.iml" filepath="$PROJECT_DIR$/teest1/mybatis05/mybatis05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teest1/mybatis06-many-to-one/mybatis06-many-to-one.iml" filepath="$PROJECT_DIR$/teest1/mybatis06-many-to-one/mybatis06-many-to-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teest1/mybatis07-one-to-many/mybatis07-one-to-many.iml" filepath="$PROJECT_DIR$/teest1/mybatis07-one-to-many/mybatis07-one-to-many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teest1/mybatis08/mybatis08.iml" filepath="$PROJECT_DIR$/teest1/mybatis08/mybatis08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teest1/mybatis09-Cache/mybatis09-Cache.iml" filepath="$PROJECT_DIR$/teest1/mybatis09-Cache/mybatis09-Cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teest1/teest1.iml" filepath="$PROJECT_DIR$/teest1/teest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test2/test2.iml" filepath="$PROJECT_DIR$/test2/test2.iml" />
+    </modules>
+  </component>
+</project>

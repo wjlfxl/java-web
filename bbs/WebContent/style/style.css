@@ -1,0 +1,245 @@
+BODY {
+	FONT-SIZE: 12px;
+}
+
+h2 {
+	COLOR: #aa6456;
+	font-family: "����";
+	font-size: 24px;
+}
+
+h3 {
+	font-family: "����";
+	color: #0000FF;
+}
+
+.h a {
+	color: #003300;
+}
+
+A {
+	COLOR: #330000;
+	TEXT-DECORATION: none
+}
+
+A:hover {
+	TEXT-DECORATION: underline
+}
+
+TEXTAREA {
+	border: 1px solid #FFCC00;
+}
+
+.gray {
+	COLOR: #818a89
+}
+
+.btn {
+	PADDING-RIGHT: 2px;
+	PADDING-LEFT: 2px;
+	FONT-SIZE: 12px;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,
+		StartColorStr=#ffffff, EndColorStr=#C3DAF5);
+	CURSOR: hand;
+	COLOR: black;
+	PADDING-TOP: 2px;
+	color: #003366;
+	border: 1px solid #FF6600;
+}
+
+.input {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 1px;
+	FONT-SIZE: 1em;
+	PADDING-BOTTOM: 2px;
+	VERTICAL-ALIGN: middle;
+	PADDING-TOP: 2px;
+	COLOR: #000066;
+	border: 1px solid #FFCC00;
+}
+
+.t {
+	MARGIN: 0px auto 8px;
+	border: 1px solid #FF9900;
+}
+
+.t TABLE {
+	BORDER-RIGHT: #fff 1px solid;
+	BORDER-TOP: #fff 1px solid;
+	MARGIN: 0px auto;
+	BORDER-LEFT: #fff 1px solid;
+	WIDTH: 99.98%;
+	BORDER-BOTTOM: #fff 1px solid
+}
+
+.h {
+	PADDING-RIGHT: 7px;
+	PADDING-LEFT: 7px;
+	PADDING-BOTTOM: 3px;
+	COLOR: #990066;
+	PADDING-TOP: 5px;
+	TEXT-ALIGN: left;
+	font-weight: normal;
+	background-color: #FFCC99;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFCC;
+}
+
+.tr1 TH {
+	PADDING-RIGHT: 10px;
+	PADDING-LEFT: 10px;
+	FONT-WEIGHT: normal;
+	PADDING-BOTTOM: 5px;
+	VERTICAL-ALIGN: top;
+	PADDING-TOP: 5px;
+	TEXT-ALIGN: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FF9900;
+}
+
+.tr1 TD {
+	BORDER-LEFT-WIDTH: 0px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFCC00;
+	border-right-color: #FFCC00;
+	border-bottom-color: #FFCC00;
+	border-left-color: #FFCC00;
+}
+
+.tr2 {
+	BACKGROUND: #f3f8ef;
+	COLOR: #006600;
+	padding: 5px;
+}
+
+.tr2 TD {
+	PADDING-RIGHT: 6px;
+	PADDING-LEFT: 6px;
+	PADDING-BOTTOM: 0px;
+	LINE-HEIGHT: 21px;
+	PADDING-TOP: 0px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FF9933;
+	border-bottom-color: #FFCC00;
+}
+
+.tr2 TH {
+	PADDING-RIGHT: 6px;
+	PADDING-LEFT: 6px;
+	PADDING-BOTTOM: 0px;
+	LINE-HEIGHT: 21px;
+	PADDING-TOP: 0px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FF9900;
+	border-bottom-color: #FFCC00;
+}
+
+.tr2 A {
+	MARGIN: 2px;
+	COLOR: #659b28
+}
+
+.tr3 TD {
+	PADDING-RIGHT: 8px;
+	PADDING-LEFT: 8px;
+	PADDING-BOTTOM: 5px;
+	PADDING-TOP: 5px;
+	COLOR: #660066;
+	background-color: #CCCCCC;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+}
+
+.tr3 TH {
+	PADDING-RIGHT: 8px;
+	PADDING-LEFT: 8px;
+	PADDING-BOTTOM: 5px;
+	PADDING-TOP: 5px;
+	FONT-WEIGHT: normal;
+	TEXT-ALIGN: left;
+	COLOR: purple;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #FFCC00;
+	border-bottom-color: #FFCC00;
+}
+
+.tr4 {
+	PADDING-RIGHT: 8px;
+	PADDING-LEFT: 8px;
+	PADDING-BOTTOM: 5px;
+	PADDING-TOP: 5px;
+	BORDER-BOTTOM: 0px;
+	BORDER-RIGHT: 0px;
+	COLOR: purple;
+	font-size: 12px;
+}
+
+.tipad {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 10px 0px 0px;
+	PADDING-BOTTOM: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFCC00;
+}
+
+.tipad2 {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-TOP: 0px;
+	MARGIN: 10px 0px 0px;
+	PADDING-TOP: 5px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFCC00;
+}
+
+.box {
+	border: 1px solid #FF9900;
+	width: 182px;
+	height: 19px;
+	clip: rect(0px, 181px, 18px, 0px);
+	overflow: hidden;
+}
+
+.box2 {
+	border: 1px solid #FF9900;
+	width: 180px;
+	height: 17px;
+	clip: rect(0px, 179px, 16px, 0px);
+	overflow: hidden;
+}
+
+select {
+	position: relative;
+	left: -2px;
+	top: -2px;
+	font-size: 12px;
+	width: 183px;
+	line-height: 14px;
+	border: 0px;
+	COLOR: #990000;
+}

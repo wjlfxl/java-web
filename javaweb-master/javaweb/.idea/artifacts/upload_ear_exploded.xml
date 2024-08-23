@@ -1,0 +1,8 @@
+﻿<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="upload:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/upload_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="upload/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/spring-05-Autowired/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-05-Autowired/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-06-anno/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-06-anno/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-07-javaConfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-07-javaConfig/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-08-proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-08-proxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-09-Aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-09-Aop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-10-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-10-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-10-mybatis2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-10-mybatis2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-11-ShiWu/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-11-ShiWu/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc02-HelloSpring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc02-HelloSpring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc03/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc03/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc04-DI/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc04-DI/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

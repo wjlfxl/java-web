@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1024" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="untitled" />
+        <module name="mail" />
+        <module name="jsp" />
+        <module name="Request" />
+        <module name="smbms" />
+        <module name="jdbc" />
+        <module name="upload3" />
+        <module name="filter" />
+        <module name="mailSpring" />
+        <module name="response" />
+        <module name="servlet3" />
+        <module name="session-cookie" />
+        <module name="jsp2" />
+        <module name="servlet2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cankao" target="8" />
+      <module name="servlet" target="1.7" />
+      <module name="upload" target="8" />
+      <module name="upload2" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mailSpring" options="-parameters" />
+    </option>
+  </component>
+</project>

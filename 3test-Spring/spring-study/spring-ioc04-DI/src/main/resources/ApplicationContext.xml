@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="com.pojo.Address">
+        <property name="address" value="武汉"/>
+    </bean>
+
+    <bean id="student" class="com.pojo.Student">
+        <!--        普通注入，value-->
+        <property name="name"  value="狂徒张三"/>
+        <!--        beam注入，ref-->
+        <property name="address" ref="address"/>
+        <!--        数组注入-->
+        <property name="book">
+            <array>
+                <value>热风</value>
+                <value>且介亭杂文</value>
+                <value>而已集</value>
+                <value>孔乙己</value>
+            </array>
+        </property>
+        <!--        集合list注入-->
+        <property name="habit">
+            <list>
+                <value>听歌</value>
+                <value>写作</value>
+                <value>游泳</value>
+                <value>摸鱼</value>
+            </list>
+        </property>
+        <!--        map注入-->
+        <property name="cord">
+            <map>
+                <entry key="身份证" value="1111111111111"/>
+                <entry key="手机号" value="1888888888"/>
+            </map>
+        </property>
+        <!--        set注入-->
+        <property name="games">
+            <set>
+                <value>LOL</value>
+                <value>GTA</value>
+                <value>DNF</value>
+                <value>CF</value>
+            </set>
+        </property>
+
+        <!--        string注入-->
+<!--        <property name="wife" value=""/>-->
+        <property name="wife">
+            <null/>
+        </property>
+        <!--        property注入-->
+        <property name="info">
+            <props>
+                <prop key="学号">20200000</prop>
+                <prop key="班级">1800</prop>
+                <prop key="score">80</prop>
+            </props>
+        </property>
+
+    </bean>
+</beans>

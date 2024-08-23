@@ -1,0 +1,3 @@
+com\dao\UserMapper.class
+com\utils\MyBatisUtils.class
+com\bean\User.class

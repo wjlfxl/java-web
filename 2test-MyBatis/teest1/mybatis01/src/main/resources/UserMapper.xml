@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.dao.UserMapper">
+
+    <select id="getUserLike" resultType="com.bean.User">
+        select * from user where name like "%"#{val}"%";
+    </select>
+
+
+    <select id="getUserList" resultType="com.bean.User">
+        select * from cart.user;
+    </select>
+
+    <select id="getUserById" resultType="com.bean.User">
+        select * from cart.user where id = #{id};
+    </select>
+
+<!--    <select id="getUserById2" parameterType="map" resultType="com.bean.User">-->
+<!--        select * from user where id = #{id};-->
+<!--    </select>-->
+
+
+<insert id="userAdd" parameterType="com.bean.User">
+    insert into cart.user(id,name,password) values (#{id},#{name},#{password});
+</insert>
+
+
+<!--    <insert id="userAdd2" parameterType="map">-->
+<!--        insert into cart.user(id,name,password) values (#{userid},#{username},#{userpasswd});-->
+<!--    </insert>-->
+
+    <update id="updateUser" parameterType="com.bean.User">
+        update cart.user set name = #{name},password=#{password} where id=#{id};
+    </update>
+
+    <delete id="getUserDelete" parameterType="int">
+        delete from cart.user where id =#{id};
+    </delete>
+
+
+
+</mapper>

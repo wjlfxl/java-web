@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.dao.BookMapper">
+
+    <select id="getBookById" resultType="com.pojo.Book">
+        select * from library.book where id=#{id};
+    </select>
+
+    <resultMap id="BookBookCase1" type="com.pojo.Book">
+        <result property="id" column="bid"/>
+        <result property="name" column="bname"/>
+        <result property="author" column="bauthor"/>
+        <result property="publish" column="bpublish"/>
+        <result property="pages" column="bpages"/>
+        <result property="price" column="bprice"/>
+        <result property="abled" column="babled"/>
+        <association property="bookcase" javaType="BookCase">
+            <result property="id" column="bcid"/>
+            <result property="name" column="bcname"/>
+        </association>
+    </resultMap>
+
+    <select id="getBookList" resultMap="BookBookCase1">
+        select b.id bid,b.name bname,b.author bauthor,b.publish,b.pages bpages,b.price bprice,b.abled
+                    babled,b.bookcaseid bbookcaseid,bc.id bcid,bc.name bcname
+        from book b,bookcase bc
+        where b.bookcaseid=bc.id;
+    </select>
+
+
+    <insert id="addBook" parameterType="com.pojo.Book">
+        insert into library.book(name,author,publish,pages,price,bookcaseid,abled)
+        values (#{name},#{author},#{publish},#{pages},#{price},#{bookcase.id},#{abled});
+    </insert>
+
+    <delete id="deleteBook" parameterType="com.pojo.Book">
+        delete from library.book where id=#{id};
+    </delete>
+
+    <update id="updateBook" parameterType="com.pojo.Book">
+        update library.book set name=#{name},author=#{author},publish=#{publish},pages=#{pages},price=#{price},bookcaseid=#{bookcase.id},abled=#{abled} where id=#{id};
+    </update>
+
+    <select id="getBookNameAuthor" resultType="com.pojo.Book">
+        select * from library.book where name like "%"#{val}"%" or author like "%"#{val}"%"
+    </select>
+
+</mapper>

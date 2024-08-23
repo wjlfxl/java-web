@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.dao.BookMapper">
+
+    <select id="getBookList" resultType="com.bean.Book">
+       select * from library.book;
+    </select>
+
+    <select id="getBookIf" parameterType="map" resultType="Book">
+        select * from library.book where 1=1
+        <if test="name != null">
+            AND name like "%"#{name}"%"
+        </if>
+        <if test="author != null">
+            AND author like "%"#{author}"%"
+        </if>
+    </select>
+
+<sql id="if-name-author">
+    <if test="name != null">
+        AND name like "%"#{name}"%"
+    </if>
+    <if test="author != null">
+        AND author like "%"#{author}"%"
+    </if>
+</sql>
+
+    <select id="getBookWhere" parameterType="map" resultType="Book">
+        select * from library.book
+        <where>
+            <include refid="if-name-author"></include>
+        </where>
+    </select>
+
+
+    <select id="getBookChoose" parameterType="map"  resultType="Book">
+        SELECT * FROM library.book
+        <where>
+            <choose>
+                <when test="name != null">
+                     name like "%"#{name}"%"
+                </when>
+                <when test="author != null">
+                    AND author like "%"#{author}"%"
+                </when>
+                <otherwise>
+                    AND 1 = 1
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+
+    <update id="upDateBook" parameterType="map">
+        update library.book
+        <set>
+            <if test="name != null">name=#{name},</if>
+            <if test="author != null">author=#{author},</if>
+        </set>
+        where id=#{id}
+    </update>
+
+
+    <select id="getBookIn"  parameterType="map" resultType="Book">
+        SELECT *FROM book WHERE id in(#{val1},#{val2},#{val3})
+    </select>
+
+
+    <select id="getBookForeach" parameterType="map" resultType="Book">
+        SELECT *FROM book
+            <where>
+                <foreach item="id" collection="ids" open="(" separator="or" close=")">
+                    id = #{id}
+                </foreach>
+            </where>
+    </select>
+
+</mapper>
